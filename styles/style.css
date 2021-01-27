@@ -5,23 +5,24 @@ html {
 }
 
 body {
-    width: 600px;
+    width: 450px;
     margin: 0 auto;
     background-color: #F0E68C;
     padding: 0 20px 20px 20px;
-    border: 5px solid #000000;
+    border: 2px solid #000000;
+    box-shadow: 0px 0px 60px #A3F0D1;
 }
 
 h2 {
     margin: 0;
     padding: 20px 0;
-    color: #A020F0;
-    text-shadow: 3px 3px 1px black ;
-    font-size: 60px;
+    color: #F0927F;
+    font-size: 40px;
     text-align: center;
 }
 
 p, li {
+    text-align: justify;
     font-size: 16px;
     line-height: 2;
     letter-spacing: 1px;
@@ -30,5 +31,6 @@ p, li {
 img {
     display: block;
     margin: 0 auto;
-    width: 300px;
+    width: 150px;
+    border-radius: 100%;
 }
