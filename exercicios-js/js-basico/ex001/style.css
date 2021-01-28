@@ -1,5 +1,5 @@
 html{
-    background-color: #ff00ff;
+    background-color: magenta;
 }
 body{
     border: 2px solid red;
@@ -19,12 +19,6 @@ input#botao{
     font-weight: 600;
     border: 1px solid black;
     background: linear-gradient(to right, white, magenta);
-}
-a.prev{
-    float: left;
-    text-decoration: none;
-    color: black;
-    text-align: center;
 }
 a.next{
     float: right;
