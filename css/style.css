@@ -52,5 +52,7 @@ span, li{
     letter-spacing: 1px;
 }
 footer{
-    padding: 0 160px 0 167.5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
