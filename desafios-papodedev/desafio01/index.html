@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio 01</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="main-content">
+        <div class="card">
+            <img src="img/ellipse-5.png" alt="Ellipse 5">
+            <img class="tenis" src="img/tenis-verde.png" alt="Tênis Verde">
+            <span id="marca">Nike</span>
+            <span id="nome">Epic React Flyknit 2</span>
+            <section class="preco">
+                <span id="preco01">R$</span>
+                <span id="preco02">359,00</span>
+            </section>
+            <div class="cores">
+                <span id="texto-cores">Cores:</span>
+                <div class="circulos-cores">
+                    <img class="circulo" src="img/bola-verde.png" alt="Bola Verde" onclick="mudarParaVerde()">
+                    <img class="circulo" src="img/bola-vermelha.png" alt="Bola Vermelha" onclick="mudarParaVermelho()">
+                    <img class="circulo" src="img/bola-azul.png" alt="Bola Azul" onclick="mudarParaAzul()">
+                </div>
+            </div>
+            <div class="tamanhos">
+                <span id="texto-tamanhos">Tamanhos:</span>
+                <div class="retangulos-tamanhos">
+                    <div class="retangulo active">
+                        <img class="active" src="img/37.png" alt="37">
+                    </div>
+                    <div class="retangulo">
+                        <img src="img/38.png" alt="38">
+                    </div>
+                    <div class="retangulo">
+                        <img src="img/39.png" alt="39">
+                    </div>
+                    <div class="retangulo">
+                        <img src="img/40.png" alt="40">
+                    </div>
+                </div>
+            </div>
+            <img class="carrinho" src="img/carrinho.png" alt="Carrinho completo">
+        </div>
+    </div>
+    <script src="js/scripts.js"></script>
+</body>
+</html>
