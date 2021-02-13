@@ -1,0 +1,117 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #00ff00;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+    border: 1px solid black;
+}
+.box-top{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 35%;
+    padding: 20px;
+    backdrop-filter: blur(10px);
+    border: 1px solid black;
+}
+.box-top img{
+    width: 80%;
+    height: 80%;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 25px;
+}
+.box-top h2{
+    text-align: center;
+    font-size: 25px;
+    color: #ffffff;
+    margin-bottom: 5px;
+}
+.box-top span{
+    text-align: center;
+    color: #ffffff;
+}
+.box-top h3{
+    text-align: center;
+    margin-top: 10px;
+    color: #ffffff;
+}
+.box-top .social-media{
+    margin-top: 20px;
+    height: auto;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 100px;
+}
+.box-top .social-media ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.box-top .social-media ul a{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    margin: 15px;
+    color: #0000ff;
+    font-size: 30px;
+    list-style-type: none;
+    text-decoration: none;
+    background-color: #00ff00;
+    border-radius: 50%;
+}
+.box-top .social-media ul a li{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.box-bottom{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border: 1px solid black;
+}
+.box-bottom a{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    margin: 15px 0 15px 0;
+    text-decoration: none;
+    border-radius: 10px;
+    border: 1px solid #000000;
+    box-shadow: 0px 0px 10px #8F73F0;
+}
+.box-bottom a article {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+.box-bottom a article h3{
+    text-align: center;
+    font-size: 18px;
+}
