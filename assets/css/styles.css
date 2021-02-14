@@ -1,6 +1,7 @@
 *{
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 body{
     display: flex;
@@ -20,7 +21,7 @@ main{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 70%;
+    width: 100%;
 }
 .box-top{
     position: relative;
@@ -30,10 +31,12 @@ main{
     align-items: center;
     padding: 10px;
     top: 40px;
+    border-radius: 10px;
+    backdrop-filter: blur(15px);
 }
 .box-top img{
-    width: 100px;
-    height: 100px;
+    width: 90px;
+    height: 90px;
     object-fit: cover;
     border-radius: 50%;
     margin-bottom: 25px;
@@ -42,17 +45,18 @@ main{
     text-align: center;
     font-size: 20px;
     margin-bottom: 5px;
-    color: #ffffff;
+    color: #082640;
 }
 .box-top span{
-    font-size: 14px;
+    font-size: 16px;
+    font-weight: 600;
     text-align: center;
-    color: #ffffff;
+    color: #082640;
 }
 .box-top h3{
     text-align: center;
     margin-top: 10px;
-    color: #ffffff;
+    color: #082640;
 }
 .box-top .social-media{
     display: flex;
@@ -62,7 +66,7 @@ main{
     margin-top: 20px;
     width: 300px;
     height: 60px;
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: rgba(255, 255, 255, 0.5);
     border-radius: 100px;
 }
 .box-top .social-media ul{
@@ -99,9 +103,9 @@ main{
     justify-content: center;
     align-items: center;
     padding: 65px 0 15px 0;
-    width: 400px;
+    width: 360px;
     background-color: #0A31A6;
-    border-radius: 20px 20px 0 0;
+    border-radius: 20px;
 }
 .box-bottom a{
     display: flex;
