@@ -7,13 +7,16 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: #000000;
+    background: linear-gradient(to right, #B30CF0, #6400D9);
+    border: 1px solid white;
 }
 main{
+    position: absolute;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    border: 1px solid white;
 }
 .box-top{
     position: relative;
