@@ -1,6 +1,7 @@
 *{
     padding: 0;
     margin: 0;
+    color: #0A31A6; 
 }
 body{
     display: flex;
@@ -13,12 +14,16 @@ body{
     -moz-background-size: cover;
     -ms-background-size: cover;
     -o-background-size: cover;
+    width: 100%;
 }
 main{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    backdrop-filter: blur(2px);
+    width: 70%;
+    border: 1px solid white;
 }
 .box-top{
     position: relative;
@@ -27,7 +32,7 @@ main{
     justify-content: center;
     align-items: center;
     padding: 10px;
-    top: 45px;
+    top: 33px;
 }
 .box-top img{
     width: 100px;
@@ -50,15 +55,20 @@ main{
     margin-top: 10px;
 }
 .box-top .social-media{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
     margin-top: 20px;
-    height: auto;
-    background-color: rgba(255, 255, 255, 0.5);
+    width: 200px;
+    height: 45px;
+    background-color: rgba(255, 255, 255, 0.1);
     border-radius: 100px;
 }
 .box-top .social-media ul{
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 }
 .box-top .social-media ul a{
@@ -68,8 +78,7 @@ main{
     align-items: center;
     width: 40px;
     height: 40px;
-    margin: 15px;
-    color: #0000ff;
+    color: #D95988;
     font-size: 30px;
     list-style-type: none;
     text-decoration: none;
@@ -88,17 +97,19 @@ main{
     align-items: center;
     padding: 65px 0 15px 0;
     width: 400px;
+    background-color: #0A31A6;
+    border-radius: 20px 20px 0 0;
 }
 .box-bottom a{
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    background-color: #D95988;
     width: 70%;
     text-decoration: none;
     margin: 15px 0 15px 0;
     border-radius: 10px;
-    box-shadow: 0px 0px 10px #000000;
 }
 .box-bottom a article {
     display: flex;
