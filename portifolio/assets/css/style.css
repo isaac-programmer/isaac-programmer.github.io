@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 html{
     font-family: 'Nanum Myeongjo', serif;
     background-color:  #8F73F0;
@@ -35,7 +40,7 @@ img.icone{
 .conteudo{
     margin-top: 0;
     margin-bottom: 15px;
-    padding-top: 10px;
+    padding: 10px;
     border: 1px solid #8F73F0;
     box-shadow: 0px 0px 10px #8F73F0;
 }
@@ -46,6 +51,13 @@ h3{
 }
 ul{
     margin-top: 0;
+    list-style: none;
+}
+ul li a{
+    text-decoration: none;
+}
+ul li a:hover{
+    text-decoration: underline;
 }
 span, li{
     line-height: 2;
