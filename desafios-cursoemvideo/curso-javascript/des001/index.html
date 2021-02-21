@@ -4,18 +4,22 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
         <title>Desafio das Mensagens</title>
-        <style>
-            input.botao{
-                height: 50px;
-                font-size: 16px;
-            }
-        </style>
+        <link rel="stylesheet" href="../css/styles.css">
     </head>
     <body>
-        <h1>Desafio das Mensagens</h1>
-        <input type="button" class="botao" value="Botão 1" onclick="apertarBotao01()">
-        <input type="button" class="botao" value="Botão 2" onclick="apertarBotao02()">
-        <input type="button" class="botao" value="Botão 3" onclick="apertarBotao03()">
+        <main>
+            <header style="border: 1px solid black;">
+                <nav style="display: flex; flex-direction: row; justify-content: flex-end;">
+                    <a href="../des002/index.html"  target="_selfie" rel="next">Próximo Desafio</a>
+                </nav>
+                <h1>Desafio das Mensagens</h1>
+            </header>
+            <section class="area-botao">
+                <input type="button" class="botao" value="Botão 1" onclick="apertarBotao01()">
+                <input type="button" class="botao" value="Botão 2" onclick="apertarBotao02()">
+                <input type="button" class="botao" value="Botão 3" onclick="apertarBotao03()">
+            </section>
+        </main>
         <script src="../js/mensagens.js"></script>
     </body>
 </html>
