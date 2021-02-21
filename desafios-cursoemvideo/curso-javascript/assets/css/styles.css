@@ -1,56 +1,75 @@
 @charset "UTF-8";
+
 /** Reset **/
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box; }
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 html {
-  background-color: #197EFF; }
+    background-color: #197EFF;
+}
 
 /** Geral **/
 main {
-  margin: 0 auto;
-  padding: 10px;
-  width: 600px;
-  background-color: #35FF19;
-  border: 2px solid #FF0DAF; }
+    margin: 0 auto;
+    padding: 10px;
+    width: 600px;
+    background-color: #35FF19;
+    border: 2px solid #FF0DAF;
+}
 
 h1,
 h2,
 p {
-  color: #000000; }
+    color: #000000;
+}
 
 /** Header **/
 header {
-  margin: 0 0 30px 0; }
-  header h1 {
+    margin: 0 0 30px 0;
+}
+
+header h1 {
     text-align: center;
-    border: 1px solid black; }
-  header nav {
+    border: 1px solid black;
+}
+
+header nav {
     border: 1px solid black;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 5px; }
-    header nav a {
-      color: #000000;
-      text-decoration: none; }
-      header nav a:hover {
-        text-decoration: underline; }
+    padding: 5px;
+}
+
+header nav a {
+    color: #000000;
+    text-decoration: none;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
 
 /** Área Botão **/
 .area-botao {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  margin-bottom: 20px; }
-  .area-botao .botao {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.area-botao .botao {
     height: 50px;
     font-size: 16px;
     padding: 5px;
-    background-color: #FFAA0D; }
-    .area-botao .botao:last-child {
-      margin-right: none; }
+    background-color: #FFAA0D;
+}
+
+.area-botao .botao:last-child {
+    margin-right: none;
+}
 
 /*# sourceMappingURL=styles.css.map */
