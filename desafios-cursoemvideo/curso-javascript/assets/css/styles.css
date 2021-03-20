@@ -1,12 +1,15 @@
 @charset "UTF-8";
+
 /** Reset **/
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+}
 
 html {
-  background-color: #197EFF; }
+  background-color: #197EFF;
+}
 
 /** Geral **/
 main {
@@ -14,47 +17,64 @@ main {
   padding: 10px;
   width: 600px;
   background-color: #35FF19;
-  border: 2px solid #FF0DAF; }
+  border: 2px solid #FF0DAF;
+}
 
 h1,
 h2,
 p {
-  color: #000000; }
+  color: #000000;
+}
 
 p,
 a {
-  font-size: 18px; }
+  font-size: 18px;
+}
 
 /** Header **/
 header {
-  margin: 0 0 30px 0; }
-  header h1 {
-    text-align: center; }
-  header nav {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 5px; }
-    header nav a {
-      display: block;
-      padding: 5px;
-      color: #000000;
-      text-decoration: none; }
-      header nav a:hover {
-        text-decoration: underline; }
+  margin: 0 0 30px 0;
+}
+
+header h1 {
+  text-align: center;
+}
+
+header nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 5px;
+}
+
+header nav a {
+  display: block;
+  padding: 5px;
+  color: #000000;
+  text-decoration: none;
+}
+
+header nav a:hover {
+  text-decoration: underline;
+}
 
 /** Área Botão **/
 .area-botao {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  margin-bottom: 20px; }
-  .area-botao .botao {
-    height: 50px;
-    font-size: 16px;
-    padding: 5px;
-    background-color: #FFAA0D; }
-    .area-botao .botao:last-child {
-      margin-right: none; }
+  margin-bottom: 20px;
+}
+
+.area-botao .botao {
+  height: 50px;
+  font-size: 16px;
+  padding: 5px;
+  background-color: #FFAA0D;
+}
+
+.area-botao .botao:last-child {
+  margin-right: none;
+}
 
 /*# sourceMappingURL=styles.css.map */
