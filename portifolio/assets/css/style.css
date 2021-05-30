@@ -79,7 +79,7 @@ img.icone {
 
 /* || Links */
 
-a {
+section.conteudo ul li a {
     padding-bottom: 2px;
     font-weight: bold;
     color: #7B5BF0;
@@ -87,25 +87,26 @@ a {
     border-bottom: 1px solid;
 }
 
-a:link {
+section.conteudo ul li a:link {
     color: #20173d;
 }
 
-a:visited {
+section.conteudo ul li a:visited {
     color: #7B5BF0;
 }
 
-a:hover {
+section.conteudo ul li a:hover {
     color: #7B5BF0;
     border-bottom: none;
 }
 
-a:focus {
+section.conteudo ul li a:focus {
     color: #F09C8B;
     outline: none;
+    border-bottom: none;
 }
 
-a:active {
+section.conteudo ul li a:active {
     color: #67F0B9;
 }
 
